@@ -149,11 +149,13 @@ div.fadeIn {
 
 }
 
-@media  (max-width: 750px){
-    
-       * { 
-           width:100%;
-        }
-    
-    
+@media (min-width:320px)  { 
+    section{
+        max-width: 100%;
+    }
 }
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
