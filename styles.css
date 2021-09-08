@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=New+Rocker&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'New Rocker', cursive;
 }
 section {
     height: 100vh;
-    background-color:rgb(39, 41, 68);
-    font-family: sans-serif;
+    background-color:rgb(15, 18, 53);
+    font-family: 'New Rocker', cursive;
 }
 .score {
     color: rgb(221, 218, 218);
@@ -46,14 +49,15 @@ transition: opacity 0.7s ease;
     width: 150px;
     height: 50px;
     background: none;
-    border: none;
+    border: 2px outset green;
     color: rgb(221, 218, 218);
     font-size: 20px;
-    background: rgb(86, 124, 11);
+    background: rgb(42, 103, 236);
     text-align: center;
     text-justify: center;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 3px 2px 1px darkgreen;
 }
 
 .match {
